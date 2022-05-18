@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenitore {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: 10px;
+}
+
+.title, 
+.item1, 
+.item2, 
+.item3, 
+.links {
+    border: 1px solid gray;
+    height: auto;
+    padding: 5px;
+
+}
+
+.title {
+    border-top: none;
+}
+
+.links {
+    padding: 20px;
+}
